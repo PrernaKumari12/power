@@ -16,7 +16,8 @@ public static int power(int x,int n) {
 	}
 	if(n%2==1) {
 	int sp=power(x, n/2);
-	
+	return sp*sp*x;
+
 	}
 	else {
 		int sp=power(x, n/2);
